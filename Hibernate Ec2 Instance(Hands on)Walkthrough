@@ -1,0 +1,75 @@
+Ec2 hibernate instance hands on.
+
+Step 1 ->
+
+      open aws management console.
+
+Step 2->
+	go to Ec2 Services.
+
+Step 3->
+	give a name(demo-Hibernate-Session).
+
+Step 4->
+	launch Instance >AMI amazon linux images> instance type t2.micro .
+
+Step 5->
+
+	security group -> Create Security Group 
+        allow SSH and HTTP port > and Save security group.
+
+Step 6->
+
+        key pair -> 
+	proceed without key pair.
+
+Step 7->
+
+    	Storage volume". 
+   	->enable volume Encryption.
+   	->enable Default kms.
+Step 6->
+
+ 	finalyy -> move to Advanced details
+ 	Scroll down You can see Hibernate behaviour -> enable it 
+	finally click on launch instances.
+
+Step 7->
+
+        go to instance running
+	open ec2 instance that you have created.
+
+Step 8->
+        
+        connect it with Ec2 Instance Connect .
+        Enter Command   <uptime> in the SSH.
+	
+        DeScription About uptime command
+        
+        >And there is one command called uptime that is quite special
+	because uptime allows you to know for how long the instance has been turned on.
+	So if you do uptime,it says that right now it's been up for zero minutes.
+
+Step 9->
+  
+	So let's disconnect from our instance and what we're going to do now
+	is that we're going to hibernate the instance.
+
+	to do so -> Go to instance Running -> Select the istance where we enable Hibernate.
+        Select Action->Hibernate Instance. wait for 2 minutes till machine stops.
+      
+Step 10->
+	Start the machine Again
+    	now connect our instance with Ec2 Instance Connect
+     	do the command <uptime>
+	restarted it from an operating system perspective,the instance was never stopped.
+	It was hibernated.And therefore the uptime command gives you two or three minutes,
+	because it has never quote unquote been stopped from an operating system perspective.
+	which is the whole idea behind hibernation.
+	So that's it.\\ Terminate  Your Ec2 Instance After This Session.
+	
+
+
+
+
+
