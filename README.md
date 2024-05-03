@@ -1,4 +1,4 @@
-# Solution-Architect- Associate-Level-Hands-On
+# Solution-Architect- Associate-Level-Projects
 Contains All the Hands on for Aws Solution Architect Associate Level Exam
 
 
