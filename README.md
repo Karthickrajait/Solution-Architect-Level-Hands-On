@@ -1,6 +1,6 @@
 # Solution-Architect- Associate-Level-Hands-On
 Contains All the Hands on for Aws Solution Architect Associate Level Exam
-hand on 1 Ec2 hibernate 
+
 
 project 1: visualize data in quicksight
 
